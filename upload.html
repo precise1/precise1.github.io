@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header> 
+        <a href="index.html" class="btn" style="position:fixed; bottom:20px; right:20px;"> 
+            <h1> Go Back</h1>
+        </a>         
+        <img src="assets/logo.png">   <br>
+        <h1> Upload Your Video </h1>            
+    </header>
+
+    <div class="container">
+        
+            <!-- @TODO: Put your code here -->
+      
+        <form action="https://formspree.io/f/meqvodqr" method="POST"enctype="multipart/form-data">
+        
+        <label>Your username:
+            <input type="text" placeholder="username">
+        </label>
+        
+        <label>Your email:
+        <input type="email" placeholder = "email" name="email">
+        </label>
+
+  
+        <label> Your file:
+        <input type="file" name="upload">
+        </label>
+        
+        <button class="btn btn-secondarytype" type ="submit">Send</button>
+        </form>
+               
+    </div>
+</body>
+</html>
